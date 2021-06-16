@@ -191,7 +191,7 @@ color:var(--priorety-link-color) ;
 
 transition-property: color;
 transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .menu-link-studio-list-portfolio{
     font-style: normal;
@@ -204,7 +204,7 @@ position: relative;
 
 transition-property: color;
 transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .menu-link-studio-list-portfolio::after {
     position: absolute;
@@ -231,7 +231,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 
     transition-property: color;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .menu-link-portfolio-list { 
     font-style: normal;
@@ -255,7 +255,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 
     transition-property: color;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .menu-link-studio::after {
     position: absolute;
@@ -281,7 +281,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 
     transition-property: color;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .menu{
 font-style: normal;
@@ -307,7 +307,7 @@ color:var(--priorety-link-color) ;
 
     transition-property: color;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .tel-link-tel{
@@ -324,7 +324,7 @@ margin-left:10px ;
 
 transition-property: color;
 transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mail-link-icon-mail{
     display: inline-block;
@@ -333,7 +333,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 
     transition-property: fill;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mail-link-icon-tel{
     display: inline-block;
@@ -343,7 +343,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 
     transition-property: fill;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mail-link:hover,
 .mail-link:focus{
@@ -638,7 +638,7 @@ margin-bottom: 10px;
 
     transition-property: background-color ;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 
 }
@@ -663,7 +663,7 @@ justify-content: space-between;
 
     transition-property: fill;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -708,7 +708,7 @@ color: var(--priorety-link-color);
 
     transition-property: fill , border;
     transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-list-client:hover,
@@ -858,7 +858,7 @@ background-color:rgba(255, 255, 255, 0.1);
 
 transition-property: background-color ;
 transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-list-link-footer:hover,
 .social-list-link-footer:focus{
@@ -869,14 +869,13 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
     fill: var(--logo-1-footercolor);
 }
 .social-footer-mail{
-align-items: center;
+display: flex;
 margin-left: 93px;
-    box-sizing: border-box;
+    
 
 }
 .social-footer-mail-bloc{
-    display: flex;
-    align-items: center;
+   width: 358px;
     
 }
 .social-footer-mail-text{
@@ -887,7 +886,7 @@ margin-left: 93px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     
-    color: #FFFFFF
+    color: #FFFFFF;
 }
 .social-footer-mail-text-masege{
     align-items: center;
@@ -907,12 +906,20 @@ background-color: #2F303A;
 
 margin-top: 20px;
 color: #fff;
+
+
+transition-property: color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+
 }
 
 
 .social-footer-mail-text-masege-button{
-padding-left: 29px;
-margin-top: 20px;
+    width: 200px; ;
+    height: 50px;
+    margin-left: 12px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -928,7 +935,8 @@ margin-top: 20px;
 
     display: flex;
 align-items: center;
-text-align: center;
+justify-content: center;
+align-self: flex-end;
 }
 .social-footer-mail-text-masege-icon{
     margin-left: 10px;
@@ -966,7 +974,7 @@ text-align: center;
 
     transition-property: colr ;
 transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
   
 }
@@ -1029,7 +1037,7 @@ padding-right: 24px;
 
     transition-property:  color , background-color , border-color ;
     transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .buton-text{
     margin-left: 8px;
@@ -1041,7 +1049,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 
     transition-property: box-shadow ;
     transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .tim-list-overlay{
      position: relative;
@@ -1179,7 +1187,7 @@ cursor: pointer;
     
     transition-property: border-color ;
     transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .form-model-input:focus + .form-model-input-logo{
@@ -1187,7 +1195,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 
     transition-property: fill;
     transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 
     
@@ -1223,7 +1231,7 @@ cursor: pointer;
 
     transition-property: border-color ;
     transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 
