@@ -79,13 +79,6 @@ text-decoration: none;
 /*==== end components ====*/
 
 /*==== heder ====*/
-
-.header{
-      border-bottom: 2px solid #ECECEC;
-}
-.top-line{
-    box-sizing: border-box;
-}
 .container{
 
     width: 1200px;
@@ -95,6 +88,13 @@ text-decoration: none;
 
     
 }
+.header{
+      border-bottom: 2px solid #ECECEC;
+}
+.top-line{
+    box-sizing: border-box;
+}
+
 .logotip{
     display: flex;
 align-items: center;
