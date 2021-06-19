@@ -281,6 +281,15 @@ ol {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.tel-link-tel:hover, .tel-link-tel:focus {
+  color: var(--logo-color);
+}
+
+.tel-link-tel:hover .mail-link-icon-tel,
+.tel-link-tel:focus .mail-link-icon-tel {
+  fill: var(--logo-color);
+}
+
 .mail-link-icon-tel {
   display: inline-block;
   margin-left: 30px;
@@ -289,16 +298,6 @@ ol {
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.tel-link-tel:hover,
-.tel-link-tel:focus {
-  color: var(--logo-color);
-}
-
-.tel-link-tel:hover .mail-link-icon-tel,
-.tel-link-tel:focus .mail-link-icon-tel {
-  fill: var(--logo-color);
 }
 
 .hero-sektion {

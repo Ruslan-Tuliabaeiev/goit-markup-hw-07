@@ -266,9 +266,17 @@ margin-left:10px ;
 transition-property: color;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+&:hover ,
+&:focus{
+    color: var(--logo-color);
 }
 
-
+&:hover .mail-link-icon-tel,
+&:focus .mail-link-icon-tel{
+    fill: var(--logo-color);
+}
+}
 .mail-link-icon-tel{
     display: inline-block;
     margin-left: 30px;
@@ -283,12 +291,3 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 
 
-.tel-link-tel:hover ,
-.tel-link-tel:focus{
-    color: var(--logo-color);
-}
-
-.tel-link-tel:hover .mail-link-icon-tel,
-.tel-link-tel:focus .mail-link-icon-tel{
-    fill: var(--logo-color);
-}
