@@ -88,14 +88,6 @@ ol {
   align-items: center;
 }
 
-.mail-tel {
-  display: flex;
-  align-items: center;
-  margin-left: auto;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
 .logotip {
   font-family: var(--text-logo);
   font-weight: 700;
@@ -114,23 +106,20 @@ ol {
   color: var(--logo-1-color);
 }
 
-.menu-link-studio:hover,
-.menu-link-studio:focus {
+.menu-link-studio {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: var(--logo-color);
+  position: relative;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu-link-studio-list:hover,
-.menu-link-studio-list:focus {
-  color: var(--logo-color);
-}
-
-.menu-link-portfolio:hover,
-.menu-link-portfolio:focus {
-  color: var(--logo-color);
-}
-
-.menu-link-contakt:hover,
-.menu-link-contakt:focus {
+.menu-link-studio:hover, .menu-link-studio:focus {
   color: var(--logo-color);
 }
 
@@ -144,6 +133,31 @@ ol {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu-link-studio-list:hover, .menu-link-studio-list:focus {
+  color: var(--logo-color);
+}
+
+.menu-link-portfolio {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--priorety-link-color);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu-link-portfolio:hover, .menu-link-portfolio:focus {
+  color: var(--logo-color);
+}
+
+.menu-link-contakt:hover,
+.menu-link-contakt:focus {
+  color: var(--logo-color);
 }
 
 .menu-link-studio-list-portfolio {
@@ -171,37 +185,12 @@ ol {
   background-color: var(--logo-color);
 }
 
-.menu-link-portfolio {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--priorety-link-color);
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .menu-link-portfolio-list {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-}
-
-.menu-link-studio {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--logo-color);
-  position: relative;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-link-studio::after {
@@ -237,7 +226,15 @@ ol {
   color: var(--priorety-link-color);
 }
 
-.mail-link {
+.mail__tel {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.mail__tel-link {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -247,6 +244,24 @@ ol {
   display: flex;
   align-items: center;
   transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mail__tel-link:hover, .mail__tel-link:focus {
+  color: var(--logo-color);
+}
+
+.mail__tel-link:hover .mail-link-icon-mail,
+.mail__tel-link:focus .mail-link-icon-mail {
+  fill: var(--logo-color);
+}
+
+.mail-link-icon-mail {
+  display: inline-block;
+  margin-right: 10px;
+  fill: var(--priorety-iten-color);
+  transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -266,15 +281,6 @@ ol {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.mail-link-icon-mail {
-  display: inline-block;
-  margin-right: 10px;
-  fill: var(--priorety-iten-color);
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .mail-link-icon-tel {
   display: inline-block;
   margin-left: 30px;
@@ -283,16 +289,6 @@ ol {
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.mail-link:hover,
-.mail-link:focus {
-  color: var(--logo-color);
-}
-
-.mail-link:hover .mail-link-icon-mail,
-.mail-link:focus .mail-link-icon-mail {
-  fill: var(--logo-color);
 }
 
 .tel-link-tel:hover,
