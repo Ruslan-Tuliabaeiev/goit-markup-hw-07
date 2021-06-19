@@ -1,16 +1,18 @@
 .footer{
     padding-top: 94px;
     
-}
-.footer{
+
+&{
     background-color: var(--hero-link-background-color);
     padding-top: 60px;  
     padding-bottom: 60px;
 }
-.footer-bloc{
+&-bloc{
     display: flex;
     align-items: baseline;
 }
+}
+
 .address-address{
     margin-top: 20px;
 }
@@ -132,26 +134,28 @@ background-color:rgba(255, 255, 255, 0.1);
 transition-property: background-color ;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.social-list-link-footer:hover,
-.social-list-link-footer:focus{
+
+&:hover,
+&:focus{
     background-color: var(--logo-color);
 }
-.social-list-link-footer:hover .social-list-icon-footer,
-.social-list-link-footer:focus .social-list-icon-footer{
+&:hover .social-list-icon-footer,
+&:focus .social-list-icon-footer{
     fill: var(--logo-1-footercolor);
 }
+}
+
 .social-footer-mail{
 display: flex;
 margin-left: 93px;
     
 
-}
-.social-footer-mail-bloc{
+
+&-bloc{
    width: 358px;
     
 }
-.social-footer-mail-text{
+&-text{
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -160,6 +164,7 @@ margin-left: 93px;
     text-transform: uppercase;
     
     color: #FFFFFF;
+}
 }
 .social-footer-mail-text-masege{
     align-items: center;
